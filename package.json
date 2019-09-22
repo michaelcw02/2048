@@ -1,0 +1,27 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "This is the web page for the famous game called 2048.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node tests/test.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelcw02/2048.git"
+  },
+  "keywords": [
+    "game",
+    "2048"
+  ],
+  "author": "Michael Chen Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelcw02/2048/issues"
+  },
+  "homepage": "https://github.com/michaelcw02/2048#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
